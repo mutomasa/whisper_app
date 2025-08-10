@@ -1,6 +1,8 @@
 # Whisper 日本語 音声認識デモ（Streamlit）
 
 日本語の音声を可視化・文字起こしし、形態素解析まで行うデモアプリです。
+<img width="1397" height="803" alt="image" src="https://github.com/user-attachments/assets/89cbd536-59e0-49bd-8683-310feb923e0c" />
+
 
 ## 機能
 - 音声の波形可視化（Plotly）
