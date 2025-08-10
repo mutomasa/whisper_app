@@ -1,0 +1,21 @@
+[project]
+name = "whisper-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gtts>=2.5.4",
+    "ja-core-news-sm",
+    "librosa>=0.11.0",
+    "numpy>=2.2.6",
+    "openai-whisper>=20250625",
+    "pandas>=2.3.1",
+    "plotly>=6.2.0",
+    "soundfile>=0.13.1",
+    "spacy>=3.8.7",
+    "streamlit>=1.48.0",
+]
+
+[tool.uv.sources]
+ja-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/ja_core_news_sm-3.8.0/ja_core_news_sm-3.8.0-py3-none-any.whl" }
